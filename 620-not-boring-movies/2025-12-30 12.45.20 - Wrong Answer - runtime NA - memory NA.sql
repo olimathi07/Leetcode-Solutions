@@ -1,0 +1,1 @@
+select id,movie,description,rating from cinema order by rating desc limit 2;

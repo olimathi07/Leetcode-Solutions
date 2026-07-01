@@ -1,0 +1,1 @@
+select id,movie,description,rating from cinema where description <> 'boring' order by rating desc limit 2;

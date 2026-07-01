@@ -1,0 +1,1 @@
+select p1.id from weather p1 join weather p2 on p1.recorddate=date_add(p2.recorddate,interval 1 day) where p2.temperature<p1.temperature;
